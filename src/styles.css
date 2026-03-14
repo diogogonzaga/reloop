@@ -119,7 +119,7 @@ h1{
 }
 
 .category:hover{
-  background-color: red;
+  background-color: green;
   cursor: pointer;
   border:1px solid #333;
 }
