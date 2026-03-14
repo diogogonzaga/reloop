@@ -1,0 +1,173 @@
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+.header{
+  background:white;
+  border-bottom:1px solid #ddd;
+}
+
+.header-container{
+  max-width:1200px;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  padding:10px 20px;
+}
+
+.header-left{
+  display:flex;
+  align-items:center;
+  gap:20px;
+  flex:1;
+}
+
+.logo{
+  height:45px;
+}
+
+.nav{
+  display:flex;
+  gap:20px;
+}
+
+.nav a{
+  text-decoration:none;
+  color:#333;
+}
+
+.header-center{
+  flex:1;
+  display:flex;
+  justify-content:center;
+}
+
+.header-center input{
+  width:80%;
+  max-width:400px;
+  padding:10px;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+
+.header-right{
+  flex:1;
+  display:flex;
+  justify-content:flex-end;
+}
+
+.publish{
+  background:#2ecc71;
+  border:none;
+  padding:10px 16px;
+  color:white;
+  border-radius:6px;
+}
+
+.login{
+  background:#4f83cc;
+  border:none;
+  padding:8px 14px;
+  color:white;
+  border-radius:6px;
+}
+
+/* HERO */
+
+.hero{
+  text-align:center;
+  padding:80px 20px;
+  background:#f5f7f9;
+}
+
+.hero-search{
+  margin-top:20px;
+}
+
+.hero-search input{
+  padding:12px;
+  width:250px;
+}
+
+h1{
+    color: #2C2C2C;
+}
+
+/* CATEGORIES */
+
+.categories{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.category-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:20px;
+  max-width:900px;
+  margin:auto;
+}
+
+.category{
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  border:1px solid #fff;
+}
+
+.category:hover{
+  background-color: red;
+  cursor: pointer;
+  border:1px solid #333;
+}
+
+/* ITEMS */
+
+.items{
+  padding:60px 20px;
+}
+
+.item-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:25px;
+  max-width:1100px;
+  margin:auto;
+}
+
+.item-card{
+  border:1px solid #eee;
+  border-radius:10px;
+  overflow:hidden;
+  background:white;
+}
+
+.item-card img{
+  width:100%;
+}
+
+.item-card p{
+  padding:10px;
+}
+
+/* HOW IT WORKS */
+
+.how{
+  padding:60px 20px;
+  background:#f5f7f9;
+  text-align:center;
+}
+
+.steps{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  margin-top:30px;
+}
+
+.step{
+  max-width:200px;
+}
